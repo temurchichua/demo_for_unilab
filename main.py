@@ -10,8 +10,13 @@ def print_hi(name):
     print("how is your day going?")
 
 
+def new_function():
+    print("this is the new function")
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    new_function()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
