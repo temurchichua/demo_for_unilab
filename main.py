@@ -12,6 +12,10 @@ def hello_world():
 def temos_github():
     return redirect("https://github.com/temurchichua")
 
+@app.route("/nika")
+def nikas_github():
+    return redirect("https://github.com/nika-kvr")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
