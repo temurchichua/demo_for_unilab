@@ -18,5 +18,9 @@ def nikas_github():
     return redirect("https://github.com/nika-kvr")
 
 
+@app.route("/alisa")
+def alisas_github():
+    return redirect("https://github.com/alisa-sanakoeva")
+
 if __name__ == "__main__":
     app.run(debug=True)
