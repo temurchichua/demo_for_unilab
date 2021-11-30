@@ -10,6 +10,7 @@ def hello_world():
 
 @app.route("/temo")
 def temos_github():
+    print("ჩემი branch")
     return redirect("https://github.com/temurchichua")
 
 @app.route("/nika")
