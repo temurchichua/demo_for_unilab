@@ -13,5 +13,9 @@ def temos_github():
     return redirect("https://github.com/temurchichua")
 
 
+@app.route("/alisa")
+def temos_github():
+    return redirect("https://github.com/alisa-sanakoeva")
+
 if __name__ == "__main__":
     app.run(debug=True)
